@@ -1,0 +1,12 @@
+Synergy_Temporal:
+
+start from trigger - 0.1 sec,
+stop at trigger + 1.0 sec,
+total 1.1 sec (110 points)
+
+Task_1: fast forward reaching
+
+Task_2: fast lateral reaching
+
+
+Synergy(task,synergy component)
