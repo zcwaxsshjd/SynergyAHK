@@ -40,5 +40,5 @@ for i = 1:N_ch
     display(['t3: ' num2str(((L*t3(i))/100) - ((t_temp)/100)) 's, EMG: ' num2str(max(EMG.output(i,:))) 'mA']);
     display(['t4: ' num2str(((L*t4(i))/100) - ((t_temp)/100)) 's, EMG: 0mA']);
 end
-CreateAHK3(L,t_temp,t1,t2,t3,t4,EMG.output,Ch_name2);
+CreateAllAHK(L,t_temp,t1,t2,t3,t4,EMG.output,Ch_name2);
 end
